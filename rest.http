@@ -1,0 +1,9 @@
+###
+get http://localhost:4004/catalog/userDocument(22526ff9-4b1b-4d4e-9dcd-e4feaeb7f4a5)/content HTTP/1.1
+Content-Type: image/png
+
+
+
+
+###delete
+delete http://localhost:4004/v2/catalog/userDocument(90ec7e7d-4040-40a3-a2db-1e59b927d4ad)
