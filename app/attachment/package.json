@@ -9,7 +9,11 @@
     ],
     "main": "webapp/index.html",
     "scripts": {
-        "deploy-config": "npx -p @sap/ux-ui5-tooling fiori add deploy-config cf"
+        "deploy-config": "npx -p @sap/ux-ui5-tooling fiori add deploy-config cf",
+        "start": "node node_modules/@sap/approuter/approuter.js"
+    
     },
-    "devDependencies": { }
+    "devDependencies": {
+        "@sap/approuter": "^10.2.0"
+     }
 }

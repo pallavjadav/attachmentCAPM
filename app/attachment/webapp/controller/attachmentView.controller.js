@@ -62,9 +62,9 @@ sap.ui.define([
 				oUploadSet.getBinding("items").refresh();
 			},
 
-			onOpenPressed: function (oEvent) {	
-				// to be implemented			
-			},
+			// onOpenPressed: function (oEvent) {	
+			// 	// to be implemented			
+			// },
 
 			_createEntity: function (item) {
 					var data = {

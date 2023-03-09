@@ -1,0 +1,19 @@
+{ 
+  "welcomeFile": "attachment/webapp/", 
+  "authenticationMethod": "route",
+  "routes": [ 
+    { 
+      "source": "^/attachment/webapp/(.*)$", 
+      "target": "$1",
+      "csrfProtection": false,
+      "authenticationType": "xsuaa",
+      "localDir": "attachment/webapp/" 
+    }, 
+    { 
+      "source": "^/(.*)", 
+      "csrfProtection": false,
+      "authenticationType": "xsuaa",
+      "destination": "srv-api" 
+    } 
+  ] 
+}
